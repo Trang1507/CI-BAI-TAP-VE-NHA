@@ -27,10 +27,10 @@ function createTable(){
         max=parseInt(number_b)
         min=parseInt(number_a)
       }
-      let result = 0;
+      
       for (let n = (min+1);n<max; n=n+1){
       
-          
+        let result = 0;
           for (let l=2;l<n;l=l+1){
             if (n % l === 0){
             result += 1;
@@ -41,5 +41,5 @@ function createTable(){
           
           }
         }
-     
+     document.getElementById("body").innerHTML += array
   }
