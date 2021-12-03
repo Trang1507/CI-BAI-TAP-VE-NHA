@@ -5,10 +5,8 @@ function createTable(){
     for (let i=0;i<=row1-1;i=i+1){
         var row = table.insertRow(0);
         for (let m=0;m<=column-1;m=m+1){
-        var cell = row.insertCell(m);
-        
-        cell.innerHTML = "<input type=text>";
-        
+        var cell = row.insertCell(m);     
+        cell.innerHTML = "<input type=text>"; 
         }
     }
   }
