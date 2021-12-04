@@ -32,14 +32,16 @@ function createTable(){
       
         let result = 0;
           for (let l=2;l<n;l=l+1){
-            if (n % l === 0){
+            if (n % l === 0)
+            {
             result += 1;
             }
           }
-          if (result == 0){
+          if ((result == 0) && (n>=2)) {
             array.push(n)
           
           }
         }
+        
      document.getElementById("body").innerHTML += array
   }
